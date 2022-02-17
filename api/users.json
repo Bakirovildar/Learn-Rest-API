@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Ildar",
+      "last_name": "Bakirov",
+      "id": 1
+    },
+    {
+      "name": "Zarina",
+      "last_name": "Bakirova",
+      "id": 2
+    },
+    {
+      "name": "Ilmir",
+      "last_name": "Bakirov",
+      "id": 3
+    }
+  ]
+}

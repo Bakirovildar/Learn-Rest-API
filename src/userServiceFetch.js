@@ -1,18 +1,8 @@
 const url = 'http://localhost:3001'
-const axios = require('axios');
 
 const getAllUsers = () => {
     return fetch(`${url}/users`)
         .then(response => response.json())
-}
-
-const getAllUsersAxios = () => {
-    return axios.get(`${url}/users`)
-        .then(response => response.data)
-}
-
-const createUserAxios = (user) => {
-    return axios.post(`${url}/users`, user)
 }
 
 const createUser = (user) => {
@@ -41,4 +31,4 @@ const removeUser = (id) => {
     })
 }
 
-export {getAllUsers, createUser, removeUser, updateUser, getAllUsersAxios, createUserAxios}
+export {getAllUsers, createUser, removeUser, updateUser}
